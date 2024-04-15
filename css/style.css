@@ -182,3 +182,8 @@ footer p{
     font-size: 14px;
     color:var(--text-color)
 }
+footer button{
+ 
+    padding-inline: 15px;
+    
+  }
