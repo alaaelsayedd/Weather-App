@@ -1,0 +1,184 @@
+:root{
+    --body-font: "Roboto", "Open Sans", sans-serif;
+    --bg-color:#1e202b;
+    --text-color:#bfc1c8;
+    --primary-color:#009ad8;
+}
+ body{
+    background-color: var(--bg-color);
+    font-family: var(--body-font) !important;
+    font-weight: 300;
+ }
+ nav{
+    background-color:var(--bg-color); ;
+ }
+ .logo2{
+    color: var(--text-color);
+    font-size:11px ;
+    /* font-weight: ; */
+
+}
+.logo1{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-item  .nav-link{
+    color: white;
+    font-size: 14px;
+    /* transition: 1s all; */
+    padding-block: 3px !important;
+    padding-inline: 25px !important;
+    border: 2px solid transparent;
+    transition: .5s  all;
+    
+}
+.nav-item  .nav-link:hover{
+   border-color: var(--primary-color);
+   color: var(--primary-color);
+
+}
+.navbar-nav .nav-link.active{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.form-control{
+    border: none;
+    background-color:var(--bg-color) ;
+    padding-inline: 20px;
+    font-size: 15px;
+    color: white;
+  
+
+}
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+    background-color:var(--bg-color) ;
+    color: white;
+    
+
+}
+.image-input
+{
+    background-image: url("../images/banner.png");
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+   
+}
+ 
+input::placeholder{
+    color: rgb(88, 88, 88) !important;
+    font-size: 15px;
+}
+  button{
+ 
+  padding-inline: 40px;
+  padding-block: 12px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  right: 55px;
+  transform: translateY(-112%);
+}
+.cards{
+    transform: translateY(-20%);
+    min-height: 350px;
+    
+}
+.cards div .card {
+    height: 100%;
+}
+.cards div .card .card-header{
+    border-bottom: none;
+    background-color: rgba(0, 0, 0, 0.1);;
+    color: var(--text-color);
+    
+
+}
+
+
+.cards .card .card-header h5{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2px;
+
+}
+.cards div:nth-of-type(2n) .card{
+    background-color: #262936;
+    
+}
+.cards div:nth-of-type(2n+1) .card{
+    background: #323544;
+    
+}
+.cards .card  .card-body .card-title{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.cards  div:first-of-type .card  .card-body .degree .num{
+    font-size: 90px;
+    margin-right: 5px;
+    font-weight: 600;
+
+
+}
+.cards .card   .card-body .degree+p{
+    color: var(--primary-color);
+    font-size: 14px;
+    margin-inline: 10px 0;
+
+}
+.cards .card   .card-body .degree .number .num1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.cards .card   .card-body .degree .number .num2{
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.cards .card   .card-body .icons div{
+    font-size: 14px;
+    color: var(--text-color);
+   
+}
+.cards .card  .card-body .icons div i{
+    font-size: 18px;
+    
+    
+}
+.cards .card  .card-body .icons div:first-of-type i{
+    transform: rotate(45deg);
+
+}
+
+footer{
+    background: #262936;
+    padding: 50px 0;
+}
+.media-icons .icon{
+    height: 40px;
+    width: 40px;
+    color: var(--primary-color);
+    border-radius: 50%;
+    background-color: var(--bg-color);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: .5s all;
+   cursor: pointer;
+    
+}
+.media-icons .icon:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+footer p{
+    font-size: 14px;
+    color:var(--text-color)
+}

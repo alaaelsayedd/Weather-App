@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-5" data-bs-theme="dark">
+      <div class="container-fluid d-flex align-items-baseline">
+        <div class="d-flex ms-lg-5 px-4 pt-2 align-items-end">
+          <div class="img">
+            <img src="./images/logo.png" alt="logo" class="w-100" />
+          </div>
+          <div class="d-flex flex-column px-3">
+            <a class="navbar-brand pb-0 logo1" href="#">Weather</a>
+            <a href="#" class="text-decoration-none logo2"
+              >tagline goes here
+            </a>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto me-lg-5 mt-3">
+            <li class="nav-item px-lg-2 py-md-3">
+              <a
+                class="nav-link active rounded-5"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item px-lg-2 py-md-3">
+              <a class="nav-link rounded-5" href="#">News</a>
+            </li>
+            <li class="nav-item px-lg-2 py-md-3">
+              <a class="nav-link rounded-5" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item px-lg-2 py-md-3">
+              <a class="nav-link rounded-5" href="#">Photo</a>
+            </li>
+            <li class="nav-item px-lg-2 py-md-3 me-5">
+              <a class="nav-link rounded-5" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="sec1">
+      <div class="image-input position-relative">
+        <div class="mb-3 p-5 w-100">
+          <input
+            type="text"
+            class="form-control rounded-5 py-3 px-3"
+            id="searchInput"
+            placeholder="Find Your Location..."
+          />
+          <button class="rounded-5">Find</button>
+        </div>
+      </div>
+    </div>
+    <div class="container card-cont"></div>
+    <footer>
+      <div class="container">
+        <div class="row align-items-baseline">
+          <div class="col-md-9 col-12">
+            <div class="mb-1 p-5  w-100 position-relative">
+              <input
+                type="text"
+                class="form-control rounded-5 py-3 px-3 "
+                id="saechInput"
+                placeholder="Enter Your Email Address"
+              />
+              <button class="rounded-5 ">Subscribe</button>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-6   mx-auto my-2">
+            <div class="media-icons d-flex">
+              <div class="icon me-2">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="icon me-2">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+              <div class="icon me-2">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="px-5">
+          Copyright 2024 Company name. Designed by Alaa Elsayed. All rights
+          reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="./script/bootstrap.bundle.min.js"></script>
+    <script src="./script/main.js"></script>
+  </body>
+</html>
